@@ -1,0 +1,57 @@
+.head1 {
+  margin-left: 20px;
+}
+
+.navbar {
+  background-color: white;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-color: grey;
+}
+
+.navbar .active a {
+  color: black!important;
+  background-color: white!important;
+}
+
+.navbar .active hover {
+  background-color: white!important;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: black;
+}
+
+.navbar .navbar-nav li a {
+  color: grey;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: grey
+}
+
+.navbar .navbar-toggle {
+  border-color: grey;
+}
+
+.navbar .navbar-toggle:hover {
+  background-color: #222;
+}
+
+.right {
+  float: right;
+}
+
+.collapsed li{
+  float: left;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 30%;
+  margin: auto;
+}
+
+
+    
