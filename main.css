@@ -1,13 +1,43 @@
-.head1 {
-  margin-left: 20px;
+/*
+@font-face { 
+  font-family: 'os1'; src: url('src/meinerschrift.ttf') format('truetype'); 
+}
+*/
+body {
+  color: #495c5e;
+}
+
+#xNav {
+  top: 25px;
+  left: 50px;
+  padding-left: 1em;
+  font-family: 'Libre Baskerville', serif; font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: 0.5px;
+}
+
+.logo {
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.sub {
+  font-family: 'Open Sans', sans-serif; font-weight: 300;
+  font-size: 21pt;
+  letter-spacing: 0.25px;
+}
+
+.heading {
+  font-family: 'Open Sans', sans-serif; font-weight: 400; 
+  font-size: 21pt;
+  letter-spacing: 0.5px;
+  
 }
 
 .navbar {
+  margin-top: 20px;
   background-color: white;
-  border-top: hidden;
-  border-left: hidden;
-  border-right: hidden;
-  border-color: grey;
+  border-style: none;
 }
 
 .navbar .active a {
@@ -24,7 +54,7 @@
 }
 
 .navbar .navbar-nav li a {
-  color: grey;
+  color: #495c5e;
 }
 
 .navbar .navbar-toggle .icon-bar {
@@ -37,14 +67,6 @@
 
 .navbar .navbar-toggle:hover {
   background-color: #222;
-}
-
-.right {
-  float: right;
-}
-
-.collapsed li{
-  float: left;
 }
 
 .carousel-inner > .item > img,
