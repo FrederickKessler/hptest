@@ -60,6 +60,10 @@ body {
   background-color: white!important;
 }
 
+.navbar a:hover {
+  background-color: white!important;
+}
+
 .navbar .navbar-nav li a:hover {
   color: black;
 }
@@ -84,6 +88,10 @@ body {
 .carousel-inner > .item > a > img {
   width: 80%;
   margin: auto;
+}
+
+.left carousel-control {
+  background-color: white!important;
 }
 
 
