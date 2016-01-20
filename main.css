@@ -1,8 +1,19 @@
-/*
-@font-face { 
-  font-family: 'os1'; src: url('src/meinerschrift.ttf') format('truetype'); 
-}
-*/
+@font-face {
+  font-family: 'Open Sans300';
+  src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('truetype'); /* Safari, Android, iOS */
+ }
+ @font-face {
+  font-family: 'Open Sans400';
+  src: url('src/fonts/Open Sans400.ttf') format('truetype'); /* Safari, Android, iOS */
+ }
+ @font-face {
+  font-family: 'Libre Baskerville';
+  src: url('src/fonts/Libre Baskerville.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+ }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+html {-webkit-font-smoothing: antialiased;}}
 body {
   color: #495c5e;
 }
@@ -22,13 +33,13 @@ body {
 }
 
 .sub {
-  font-family: 'Open Sans', sans-serif; font-weight: 300;
+  font-family: 'Open Sans300', sans-serif; font-weight: 300;
   font-size: 21pt;
   letter-spacing: 0.25px;
 }
 
 .heading {
-  font-family: 'Open Sans', sans-serif; font-weight: 400; 
+  font-family: 'Open Sans400', sans-serif; font-weight: 400; 
   font-size: 21pt;
   letter-spacing: 0.5px;
   
