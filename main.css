@@ -90,8 +90,16 @@ body {
   margin: auto;
 }
 
-.left carousel-control {
-  background-color: white!important;
+.carousel-controls{
+  position:relative; 
+  width:300px;
+  top: -30px;
+  background-color:none;
+  margin:0 auto;
+}
+
+.carousel-indicators{
+   top: 0px; 
 }
 
 
