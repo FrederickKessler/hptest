@@ -86,20 +86,23 @@ body {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  width: 70%;
   margin: auto;
 }
 
 .carousel-controls{
   position:relative; 
   width:300px;
-  top: -30px;
+  top: -40px;
   background-color:none;
   margin:0 auto;
 }
 
 .carousel-indicators{
-   top: 0px; 
+   top: -10px; 
+}
+
+#myCarousel {
+  height: 600px;
 }
 
 
